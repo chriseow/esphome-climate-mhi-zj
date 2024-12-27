@@ -3,7 +3,6 @@ import esphome.config_validation as cv
 from esphome.components import climate_ir
 from esphome.const import CONF_ID
 
-CODEOWNERS = ["@mSapik"]
 AUTO_LOAD = ["climate_ir"]
 
 mhi_ns = cg.esphome_ns.namespace("mhi_zj")
